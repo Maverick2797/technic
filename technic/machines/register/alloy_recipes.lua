@@ -51,6 +51,7 @@ end
 if minetest.get_modpath("moreblocks") then
 	table.insert(recipes, {"default:stone", "default:steel_ingot", "moreblocks:iron_stone 4", 3})
 	table.insert(recipes, {"default:stone", "default:coal_lump", "moreblocks:coal_stone 4", 3})
+	table.insert(recipes, {"moreblocks:cobble_condensed 10", "bucket:bucket_empty", "bucket:bucket_lava", 7})
 end
 
 if minetest.get_modpath("bakedclay") then
